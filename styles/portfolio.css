@@ -2,187 +2,213 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
 /* 
 Nav styles
 */
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 100px;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 100px;
 }
 /* shared style */
-.text-primary{
-    color: #FD6E0A;
+.text-primary {
+  color: #fd6e0a;
 }
-.btn-primary{
-    background-color: #FD6E0A;
-    font-weight: bold;
-    color: white;
-    padding: 10px 35px;
-    border-radius: 5PX;
-    font-size: 20px;
-    border: none;
+.btn-primary {
+  background-color: #fd6e0a;
+  font-weight: bold;
+  color: white;
+  padding: 10px 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+}
+.text-center {
+  text-align: center;
+}
+.nav-title {
+  font-size: 45px;
+  font-weight: 800;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+
+  /* gap: 10px; */
+}
+nav ul li {
+  list-style: none;
+  margin-right: 51px;
+}
+nav li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+.dark-2 {
+  color: #474747;
+}
+.header {
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: center left, bottom right;
 }
 
-.text-center{
-    text-align: center;
-}
-.nav-title{
-    font-size: 45px;
-    font-weight: 800;
-}
-nav ul{
-    display: flex;
-    align-items: center;
-
-    /* gap: 10px; */
-}
-nav ul li{
-    list-style: none;
-    margin-right: 51px;
-}
-nav li a{
-    text-decoration: none;
-    font-size: 20px;
-
-}
-.dark-2{
-    color: #474747;
-}
-.header{
-    background-image: url('../images/developer.png'),url('../images/header_bg.png');
-    background-repeat: no-repeat;
-    background-position: center left, bottom right;
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
 }
 
-.section-title{
-    font-size: 35px;
-    font-weight: bold;
-    color: #181818;
+.section-description,
+.item-title {
+  font-size: 18px;
+  color: #757575;
 }
-
-.section-description, .item-title {
-    font-size: 18px;
-    color: #757575;
-}
-.secondary-bg{
-    background-color: #fff8f3;
+.secondary-bg {
+  background-color: #fff8f3;
 }
 
 /* banner style  */
-.banner{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 35px 0 200px;
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
 }
-.banner-content{
-    max-width: 580px ;
+.banner-content {
+  max-width: 580px;
 }
-.banner-gratings{
-    font-size: 45ps;
-    font-weight: 600;
+.banner-gratings {
+  font-size: 45ps;
+  font-weight: 600;
 }
-.banner-title{
-    font-weight: bold;
-    font-size: 35px;
+.banner-title {
+  font-weight: bold;
+  font-size: 35px;
 }
-.banner-description{
-    font-size: 20px;
+.banner-description {
+  font-size: 20px;
 }
-.banner-profile-picture{
-    width: 580px;
+.banner-profile-picture {
+  width: 580px;
 }
 /* Main Styles */
-main{
-    max-width: 1140px;
-    margin: 0 auto;
-
+main {
+  max-width: 1140px;
+  margin: 0 auto;
 }
-main section{
-    margin-top: 130px;
-    margin-bottom: 130px;
+main section {
+  margin-top: 130px;
+  margin-bottom: 130px;
 }
 /*  About Styles */
-.about{
-    border-radius: 10px;
-    padding: 130px 150px;
-    text-align: center;
-    /* margin-top: 130px; */
-    /* margin: 130px 350px; */
-
+.about {
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  /* margin-top: 130px; */
+  /* margin: 130px 350px; */
 }
-.about-items{
-    display: flex;
-    justify-content: space-around;
+.about-items {
+  display: flex;
+  justify-content: space-around;
 }
-.about-description{
-    font-weight: 600;
+.about-description {
+  font-weight: 600;
 }
 
 /* Skill styles */
-.skill-container{
-    display: flex;
-    gap: 24px;
-
+.skill-container {
+  display: flex;
+  gap: 24px;
 }
-.skill{
-    padding: 30px;
-    border-radius: 5px;
-    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.1);
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.1);
 }
 
 /* Resume asection styles */
-.resume-container{
-    display: flex;
-    gap: 24px;
+.resume-container {
+  display: flex;
+  gap: 24px;
 }
-.experience-description, .experience-sub-title{
-    color: #757575;
-    margin-bottom: 5px;
+.experience-description,
+.experience-sub-title {
+  color: #757575;
+  margin-bottom: 5px;
 }
-.experience-sub-title{
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 5px;
+.experience-sub-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
 }
-.experience-title{
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 5px;
+.experience-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
-.resume-column-title{
-    font-size: 30px;
-    font-weight: bold;
-    color: #1E1E1E;
+.resume-column-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1e1e1e;
 }
-.resume hr{
-    margin: 30px 5px;
+.resume hr {
+  margin: 30px 5px;
 }
-.resume-download-cv{
-    margin-top: 50px;
+.resume-download-cv {
+  margin-top: 50px;
 }
 /* Footer Section */
-footer{
-    padding: 130px 230px;
-    display: flex;
-    gap: 110px;
+footer {
+  padding: 130px 230px;
+  display: flex;
+  gap: 110px;
 }
-.footer-column{
-    width: 50%;
+.fotter-column {
+  width: 50%;
 }
-footer input[type="text"], footer input[type="email"], footer textarea{
-    height: 64px;
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+  height: 64px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .skill-container,
+  .resume-container,
+  footer,
+  .about-items
+  {
+    flex-direction: column;
+  }
+  footer,
+  .about
+  {
+    padding: 20px;
+  }
+  .fotter-column {
     width: 100%;
-    border-radius: 5px;
-    background-color: white;
-    display: block;
-    padding: 10px 20px;
-    margin-bottom: 24px;
-    border: none;
+  }
+  footer input[type="text"],
+  footer input[type="email"],
+  footer textarea {
+    width: calc(100px - 40px);
+  }
 }
